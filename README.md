@@ -8,14 +8,14 @@ This java program simulates customers waiting in line at a grocery store during 
 
 For each iteration or "minute" of the program, the following happens:
 
-•	Check to see if new customers are added to the queue (25% chance a new customer arrives at the line)
-•	Customer object currently being serviced (front of the queue) is updated.
-•	If the customer has been completely serviced, they are removed from the queue.
+•	Check to see if new customers are added to the queue (25% chance a new customer arrives at the line) <br>
+•	Customer object currently being serviced (front of the queue) is updated. <br>
+•	If the customer has been completely serviced, they are removed from the queue. <br>
 
 At the end of each iteration teh program outputs, “---------------------------------------------------“  to visually identify the passing of time.
 
 ------------------------------------------------------------------------------------------------------
-EXAMPLE OUTPUT:
+EXAMPLE OUTPUT: <br>
 "---------------------------------------------------------------------" <br>
 "---------------------------------------------------------------------" <br>
 New customer added!  Queue length is now 1 <br>
