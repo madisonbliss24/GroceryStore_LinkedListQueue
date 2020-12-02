@@ -8,7 +8,7 @@ This java program simulates customers waiting in line at a grocery store during 
 
 For each iteration or "minute" of the program, the following happens:
 
-•	Check to see if new customers are added to the queue (25% chance a new customer arrives at the line) <br>
+•	Check to see if new customers are added to the queue (25% chance a new customer arrives at the back of the line) <br>
 •	Customer object currently being serviced (front of the queue) is updated. <br>
 •	If the customer has been completely serviced, they are removed from the queue. <br>
 
