@@ -90,11 +90,5 @@ public class Queue {
         qLength--;
     }
     
-    //print info 
-    public String printInfo(){
-        return "Total customers serviced: " + getTotalCustomers() + '\n'
-                + "Max line length: " + getMaxLineLength(); 
-    }
-    
     
 }
