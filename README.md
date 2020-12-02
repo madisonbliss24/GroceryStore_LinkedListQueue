@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------------------------------------
 
-This java program simulates customers waiting in line at a grocery store during a period of 60 "minutes." It uses a Linked List Queue to hold Customer objects. At the creation of each Customer object, it is assigned a required service time (number of iterations before customer is fully checked out) between 1-5 "minutes."
+This java program simulates customers waiting in line at a grocery store during a period of 60 "minutes." It uses a Linked List Queue to hold Customer objects. At the creation of each Customer object, it is assigned a required service time (number of iterations before the customer is fully checked out) between 1-5 "minutes."
 
 For each iteration or "minute" of the program, the following happens:
 
@@ -12,7 +12,7 @@ For each iteration or "minute" of the program, the following happens:
 •	Customer object currently being serviced (front of the queue) is updated. <br>
 •	If the customer has been completely serviced, they are removed from the queue. <br>
 
-At the end of each iteration teh program outputs, “---------------------------------------------------“  to visually identify the passing of time.
+At the end of each iteration the program outputs, “---------------------------------------------------“  to visually identify the passing of time.
 
 ------------------------------------------------------------------------------------------------------
 EXAMPLE OUTPUT: <br>
